@@ -1,10 +1,10 @@
 {
   "compilerOptions": {
-    "target": "ES2017",
-    "module": "commonjs",
-    "lib": ["ES2017", "DOM"],
-    "outDir": "./dist",
-    "rootDir": "./src",
+    "target": "ES2017",// or "ES5"
+    "module": "commonjs",// or "amd",
+    "lib": ["ES2017", "DOM"],// or ["ES5", "DOM"]
+    "outDir": "./dist",// or "./build"
+    "rootDir": "./src",//
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
