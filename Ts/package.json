@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "ts-node src/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -11,5 +13,10 @@
   "description": "",
   "dependencies": {
     "ts": "^0.2.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2",
+    "@types/node": "^20.11.0"
   }
 }

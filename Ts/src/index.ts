@@ -544,8 +544,25 @@
 // type InstanceTypeApiParameter = InstanceType<typeof Ctest>
 // type ConstructorParametersApiParameter = ConstructorParameters<typeof Ctest>
 //
-abstract class Animal{
-    abstract eat():void;
+// abstract class Animal{
+//     abstract eat():void;
+// }
+const a: number = 1;
+
+// 示例 TypeScript 代码
+interface Person {
+    name: string;
+    age: number;
 }
 
+function greet(person: Person): string {
+    return `Hello, ${person.name}! You are ${person.age} years old.`;
+}
+
+const person: Person = {
+    name: "张三",
+    age: 25
+};
+
+console.log(greet(person));
 
