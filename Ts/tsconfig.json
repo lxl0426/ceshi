@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
-    "target": "ES2017",// or "ES5"
-    "module": "commonjs",// or "amd",
+    "target": "ES2017",// or "ES5"，定义编译目标
+    "moduleResolution": "node",// or "classic",定义模块解析策略
+    "module": "commonjs",// or "amd",定义模块系统
     "lib": ["ES2017", "DOM"],// or ["ES5", "DOM"]
     "outDir": "./dist",// or "./build"
     "rootDir": "./src",//
