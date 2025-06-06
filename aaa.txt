@@ -1,1 +1,16 @@
-111111
+严格类型检查选项
+strict:启用所有严格类型检查选项。
+noImplicitAny:在表达式和声明上有隐含的 any 类型时报错。
+strictNullChecks:启用严格的 null检查，
+noImplicitThis:当 this 表达式的值为 any 类型时，生成错误。
+alwaysstrict:以严格模式检查每个模块，并在每个文件里加入'use strict'。gist.github.com
+额外的检查
+noUnusedLocals:有未使用的变量时，抛出错误，
+noUnusedParameters:有未使用的参数时，抛出错误，
+noImplicitReturns:并不是所有函数里的代码都有返回值时，抛出错误
+noFallthroughCasesInSwitch:报告 switch 语句的 fallthrough 错误。gist.github.com
+模块解析选项
+moduleResolution:选择模块解析策略:"node"或“classic"
+baseurl:用于解析非相对模块名称的基目录，
+paths:模块名到基于 baseUrl的路径映射的列表
+rootDirs:根文件夹列表，其组合内容表示项目运行时的结构内
