@@ -553,6 +553,7 @@ const a: number = 1;
 interface Person {
     name: string;
     age: number;
+    [key :string]: unknown,
 }
 
 function greet(person: Person): string {
@@ -563,6 +564,13 @@ const person: Person = {
     name: "张三",
     age: 25
 };
+
+//声明两个相同的变量使用demo
+namespace demo {
+    let a: number = 1;
+    let b: number = 2;
+    console.log(a, b);
+}
 
 console.log(greet(person));
 

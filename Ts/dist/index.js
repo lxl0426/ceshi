@@ -507,4 +507,11 @@ const person = {
     name: "张三",
     age: 25
 };
+//声明两个相同的变量使用demo
+var demo;
+(function (demo) {
+    let a = 1;
+    let b = 2;
+    console.log(a, b);
+})(demo || (demo = {}));
 console.log(greet(person));
